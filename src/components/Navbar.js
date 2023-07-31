@@ -7,7 +7,9 @@ import { DribbbleIcon, GithubIcon, InstagramIcon, LinkedInIcon, PinterestIcon, T
 import { motion } from 'framer-motion'
 
 const CustomLink = ({ href, title, className = "" }) => {
-  const pathname = usePathname()
+  const pathname = usePathname();
+  console.log("pathname form1 ", pathname);
+  console.log("href form1 ", href);
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
