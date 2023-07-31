@@ -2,14 +2,16 @@
 import Link from 'next/link'
 import React from 'react'
 import Logo from './Logo'
-import { usePathname } from 'next/navigation'
-import { DribbbleIcon, GithubIcon, InstagramIcon, LinkedInIcon, PinterestIcon, TwitterIcon } from './Icons'
+import { usePathname, useParams  } from 'next/navigation'
+import { GithubIcon, InstagramIcon, LinkedInIcon } from './Icons'
 import { motion } from 'framer-motion'
 
 const CustomLink = ({ href, title, className = "" }) => {
   const pathname = usePathname();
+  const params = useParams()
   console.log("pathname form1 ", pathname);
   console.log("href form1 ", href);
+  console.log("params form1 ", params);
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
@@ -26,8 +28,8 @@ const Navbar = () => {
   return (
     <header className='w-full px-32 py-8 font-medium flex items-center justify-between'>
       <nav>
-        <CustomLink href="/curriculumvitae.github.io/" title="Home" className='mr-4 ' />
-        <CustomLink href="/curriculumvitae.github.io/about" title="About" className='mx-4' />
+        <CustomLink href="/" title="Home" className='mr-4 ' />
+        <CustomLink href="/about" title="About" className='mx-4' />
         {/* <CustomLink href="/projects" title="Projects" className='mx-4' />
         <CustomLink href="/articles" title="Articles" className='ml-4' /> */}
       </nav>
