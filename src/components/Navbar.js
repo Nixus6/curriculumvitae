@@ -12,6 +12,8 @@ const CustomLink = ({ href, title, className = "" }) => {
   console.log("pathname form1 ", pathname);
   console.log("href form1 ", href);
   console.log("params form1 ", params);
+  console.log("pathname form1 ", pathname.id);
+  console.log("params form1 ", params.slug);
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
