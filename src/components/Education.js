@@ -37,17 +37,17 @@ const Education = () => {
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4'>
                     <Details
-                        type="Software programming technician"
-                        time="2015-2018" place="Colegio Educacion Tecnica y Academica Celestin Freinet"
-                        info="Relevant courses include object-oriented programming, algorithms, analysis and programming fundamentals."/>
+                        type="Software Engineering"
+                        time="2022-Actual" place="Politecnico Grancolombiano"
+                        info="Complete courses on advanced topics of software engineering specializing in development" />
                     <Details
                         type="Technologist in Analysis and Development of Information Systems"
                         time="2019-2020" place="SENA Centro de Gestión de Mercados, Logística y Tecnologías de la Información"
-                        info="Relevant skills for Software Analysis, Design, Development, Implementation, Testing and Maintenance "/>
+                        info="Relevant skills for Software Analysis, Design, Development, Implementation, Testing and Maintenance " />
                     <Details
-                        type="Software Engineering"
-                        time="2022-Actual" place="Politecnico Grancolombiano"
-                        info="Complete courses on advanced topics of software engineering specializing in development"/>
+                        type="Software programming technician"
+                        time="2015-2018" place="Colegio Educacion Tecnica y Academica Celestin Freinet"
+                        info="Relevant courses include object-oriented programming, algorithms, analysis and programming fundamentals." />
                 </ul>
             </div>
         </div>
