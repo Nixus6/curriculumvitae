@@ -51,14 +51,14 @@ const Experience = () => {
                     <Details position="Developer Junior FullStack"
                         company="Casa Bonita"
                         companyLink="http://casabonitaa.com"
-                        time="10/1/2020 A 5/04/2021" address="Cl 26b #5-93, Santa Fé, Bogotá, Cundinamarca"
+                        time="2020-2021" address="Cl 26b #5-93, Santa Fé, Bogotá, Cundinamarca"
                         work="I performed two tasks, first to create a brand for the company, design the logo, slogan and product catalog with programs such as 
                         Photoshop and Adobe Illustrator. The second in the warehouse area, delivery and inventory management, stock, purchases and sales with a 
                         desktop system for its management."/>
-                    <Details position="Junior Developer FullStack"
+                    <Details position="Developer Junior FullStack"
                         company="Une epm telecomunicaciones"
                         companyLink="https://www.tigo.com.co/empresas"
-                        time="16/12/2019 A 16/12/2020" address="Ac. 26 #92-32, Bogotá"
+                        time="2019-2020" address="Ac. 26 #92-32, Bogotá"
                         work="In a company like une epm telecomuniaciones, I chose to start the development of a new system 
                 for the bidding area that allowed them to have a more intuitive and pleasant experience with a better 
                 code optimization that new developers have been working on and improving, Git:" linkVideo='https://github.com/Nixus6/Licitaciones' />
